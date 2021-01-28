@@ -1,0 +1,93 @@
+.baner {
+        position: relative; 
+        width: 100%;
+        text-align: center;
+        z-index: -4;
+        color: white; 
+}
+
+.baner_text { 
+        padding-top: 18%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 4; 
+        color: white; 
+        text-align: center;
+        font-size: 35px;
+}
+
+.head_text { 
+        margin: 3%;
+        font-size: 20px;
+        color: black;
+}
+
+.ability_head { 
+        text-align: center; 
+        font-size: 25px; 
+        color: black; 
+}
+
+.ability_server_icon { 
+        color: greenyellow;
+        font-size: 70px;
+}
+
+.ability_oposit { 
+        color: black; 
+        font-size: 20px;
+}
+
+.ability_text { 
+        color: black; 
+        font-size: 15px; 
+}
+
+.server_data { 
+        margin-top: 1%;
+        text-align: center;
+        color: black;
+}
+
+/* fotter */ 
+
+.fotter { 
+        color: white;
+        background-color: black;
+}
+
+.fotter_left { 
+        text-underline-offset: 0;
+        padding-left: 5%;
+        width: 40%;
+}
+
+.fotter_center { 
+        position: sticky;
+        text-underline-offset: 0;
+        padding-left: 45%;
+        width: 100%;
+}
+
+.fotter_right { 
+        padding-left: 80%;
+        width: 100%;
+}
+
+/* adverts etc. */ 
+
+.advert_head_text { 
+        padding-bottom: 1%;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+}
+
+.advert { 
+        color: black; 
+        text-align: center;
+        font-size: 20px;
+        padding-top: 1%;
+        padding-bottom: 2%;
+}
