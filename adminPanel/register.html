@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head> 
+    <title> Rejestracja - MasarniaMC.pl </title>
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/loginPanel.css"> 
+</head>    
+<body> 
+        <br><br><br><br><br><br><br>
+       <center> 
+           <!--Jesli wszystko okej to: ---> 
+           <div class="alert alert-dismissible alert-success">
+            Gratulacje utworzyłeś/aś konto w panelu! Sprawdź swoją pocztę email, wysłaliśmy email z linkiem do aktywacji konta - ważny 24 godziny. Sprawdź również spam, jeśli 
+            link nie przyjdzie w ciągu godziny <b> niezwłocznie skontaktuj się z nami </b>.
+          </div>
+          <!-- Jeśli nie okej to: -->
+          <div class="alert alert-dismissible alert-danger">
+              Coś poszło nie tak, twoje konto nie zostało utworzone. Możliwe, że rejestracja jest wyłączona lub dane są niepoprawne - jeśli sprawdziłeś/aś wszystko a rejestracja
+              nie jest wyłączona skontaktuj się z administracją sieci.
+          </div>
+
+          <div class="card border-primary mb-3" style="max-width: 50rem;" class="background_text">
+            <div class="card-header">Panel rejestracji</div>
+            <div class="card-body">
+              <p class="card-text baner_text">
+                  <b> Wpisz swój adres email: </b> 
+                  <input class="form-control form-control-sm" type="text" placeholder="Email" id="inputSmall">
+                  <b> Wpisz swój adres email ponownie: </b> 
+                  <input class="form-control form-control-sm" type="text" placeholder="Email" id="inputSmall"> 
+                  <b> Hasło: </b> 
+                  <input class="form-control form-control-sm" type="password" placeholder="Hasło" id="inputSmall"> 
+                  <b> Powtórz hasło: </b> 
+                  <input class="form-control form-control-sm" type="password" placeholder="Hasło" id="inputSmall"> 
+                  <div class="form-group">
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+                      <label class="custom-control-label" for="customSwitch1">Akceptuję <a href="#"> regulamin </a></label>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-outline-info"> Zarejestruj się</button>
+              </p>
+            </div>
+          </div>
+        </center>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="fotter"> 
+            Copyright by MasarniaMC.pl 2021 | Autor: Krisovsky <a href="#"> KDesign </a>
+        </div>
+</body>

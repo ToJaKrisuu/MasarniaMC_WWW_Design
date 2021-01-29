@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+        <title> Admin Panel - MasarniaMC.pl</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/panel.css"> 
+        <!-- JS -->
+        <script src="https://kit.fontawesome.com/03f98a470e.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head> 
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MasarniaMC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Main site
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cuboids.html">Console</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button type="button" class="btn btn-outline-info">Logout</button>
+          </form>
+        </div>
+      </nav>
+    <div class="playerStatistic"> 
+      <div class="card border-success mb-3" style="max-width: 40rem;">
+        <div class="card-header">Information about your admin account</div>
+        <div class="card-body">
+          <p class="card-text"><b> Nickname: </b> Krisovsky <br> 
+                               <b> Group: </b> CEO <br> 
+                               <b> Email: </b> dawidkrysman@gmail.com <br> 
+                               <b> Warns: </b> 0 <br> 
+                               <b> Last warn: </b> by Krisovsky; <span style="color: red"> Null of active </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="playerBuy">
+    <div class="card border-primary mb-3" style="max-width: 40rem;">
+        <div class="card-header">Server statistic</div>
+        <div class="card-body">
+          <p class="card-text">
+            <b> Online players: </b> 10/30 <br> 
+            <b> RAM Memory use: </b> 538/4096MB <br> 
+            <b> Disc use: </b> 500MB/5000MB <br> 
+            <hr> 
+            Last synchronize: 29.01.2021 19:30 <br> 
+            Time to next synchronize: 2 minutes 
+          </p>
+        </div>
+      </div>
+    </div>
+<div class="playerExtendList">
+    <div class="card border-info mb-3" style="max-width: 40rem;">
+        <div class="card-header">Quick access</div>
+        <div class="card-body">
+          <p class="card-text playerExtendList_list">You don't have premission for this part. 
+            <!-- If has a permission --><br>
+            <button type="button" class="btn btn-outline-warning">Reload all plugins in server </button>
+            <button type="button" class="btn btn-outline-warning">Database synchronize </button>
+            <button type="button" class="btn btn-outline-secondary">Save all worlds</button> <br><br>
+            <button type="button" class="btn btn-outline-danger">Stop server </button>
+          </p>
+        </div>
+      </div>
+    </div>
